@@ -12,7 +12,8 @@ header{
     background-color: red;
     margin: auto;
     background-color: #3161e0;
-    height: 10vh;
+    height: 70px;
+    padding-top: 30px;
 }
 
 .clearfix::after {
@@ -21,9 +22,19 @@ header{
 	clear: both;
     }
 
+    #logo{
+        text-align: right;
+    }
+
+    #accedi{
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
 
 .col{
     float: left;
+    vertical-align: middle;
 }
 
 .col-25 {
@@ -31,20 +42,26 @@ header{
     }
 
 .col-50 {
-    width: 20%;
+    width: 50%;
+    
     }    
 
+
 .btn{
-    height: 30px;
+    height: 40px;
     border-radius: 15px;
-    padding: 5px 15px;
+    padding: 8px 15px;
     background-color: white;
     text-decoration: none;
     color: black;
 }
 
+ul{
+    text-align: center;
+}
 header li{
-    display: inline-block;
+    display: inline;
+    padding: 30px;
 }
 
 header div nav a{
