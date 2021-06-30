@@ -22,7 +22,7 @@ header{
     padding-top: 30px;
 }
 
-section{
+.section{
     position: relative;
 }
 
@@ -60,30 +60,33 @@ section{
     }
 
 .col-60 {
-    width: 60%;
-    
+    width: 60%;  
     }    
+
+ .col-60 {
+     width: 50%;  
+     }    
 h1{
     font-size: 60px;
 }
 .btn{
-    height: 40px;
-    border-radius: 15px;
-    padding: 8px 15px;
+    border-radius: 30px;
+    padding: 15px 25px;
     background-color: white;
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 ul{
     text-align: center;
 }
+
 header li{
     display: inline;
     padding: 30px;
 }
 
-header div nav a{
+nav ul li a{
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -96,11 +99,34 @@ header div nav a{
 
 #first-page{
     background-image: url(../img/jumbo.png);
-    width: ;
-    height: 100vh;
+    background-size: 80%, 80%;
+    background-size: cover;
+
 }
 
 main section div p{
     line-height: 150%;
     font-size: 25px;
+    margin-top: 50px;
+}
+
+#black{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+main li{
+    margin-top: 40px;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+main a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.visualizzazione{
+    width: 100vw;
+    height: 100vh;
 }
