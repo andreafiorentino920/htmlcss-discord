@@ -15,21 +15,42 @@ header{
     height: 10vh;
 }
 
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+    }
 
+
+.col{
+    float: left;
+}
+
+.col-25 {
+    width: 25%;
+    }
+
+.col-50 {
+    width: 20%;
+    }    
 
 .btn{
-    height: 10px;
-    border-radius: 30px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
 }
 
 header li{
     display: inline-block;
 }
 
-header a{
+header div nav a{
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .main-header{
